@@ -68,7 +68,7 @@ let invalidPerson: Person = { name: "Bobby", age: true };
 
 // Interfaces can also describe a function type
 interface SearchFunc {
-  (source: string, subString: string): boolean;
+    (source: string, subString: string): boolean;
 }
 // Only the parameters' types are important, names are not important.
 let mySearch: SearchFunc;
