@@ -10,9 +10,9 @@ let lines = 42;
 let name = "Anders";
 
 // When it's impossible to know, there is the "Any" type
-let notSure: any = 4;
-notSure = "maybe a string instead";
-notSure = false; // okay, definitely a boolean
+let notReallySure: any = 4;
+notReallySure = "maybe a string instead";
+notReallySure = false; // okay, definitely a boolean
 
 // Use const keyword for constants
 const numLivesForCat = 9;
